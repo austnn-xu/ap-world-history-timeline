@@ -429,6 +429,7 @@ const panelSkill = document.querySelector("#panelSkill");
 const panelPoints = document.querySelector("#panelPoints");
 const panelVocab = document.querySelector("#panelVocab");
 const panelRemember = document.querySelector("#panelRemember");
+const panelImages = document.querySelector("#panelImages");
 const imageCloud = document.querySelector("#imageCloud");
 const lineProgress = document.querySelector("#lineProgress");
 const expandAllButton = document.querySelector("#expandAll");
@@ -455,6 +456,23 @@ function topicVisuals(unit, topicTitle, topicIndex) {
   const third = context[(topicIndex + 1) % context.length] || set[(topicIndex + 2) % set.length] || primary;
 
   return [primary, second, third];
+}
+
+function visualMarkup(visuals, layout) {
+  return visuals
+    .map(
+      (visual, index) => `
+      <figure
+        class="floating-image"
+        data-label="${visual.label}"
+        style="--tone:${visual.tone};--x:${layout[index].x};--y:${layout[index].y};--r:${layout[index].r};--focus:${visual.focus}"
+      >
+        <img src="${visual.src}" alt="${visual.label}" loading="lazy" />
+        <figcaption>${visual.label}</figcaption>
+      </figure>
+    `
+    )
+    .join("");
 }
 
 function render() {
@@ -521,28 +539,17 @@ function setActive(card) {
 
   const layout = floatingLayouts[Number(card.dataset.index) % floatingLayouts.length];
   const visuals = topicVisuals(unit, title, Number(card.dataset.index));
+  const markup = visualMarkup(visuals, layout);
   imageCloud.style.setProperty("--accent", unit.accent);
-  imageCloud.innerHTML = visuals
-    .map(
-      (visual, index) => `
-      <figure
-        class="floating-image"
-        data-label="${visual.label}"
-        style="--tone:${visual.tone};--x:${layout[index].x};--y:${layout[index].y};--r:${layout[index].r};--focus:${visual.focus}"
-      >
-        <img src="${visual.src}" alt="${visual.label}" loading="lazy" />
-        <figcaption>${visual.label}</figcaption>
-      </figure>
-    `
-    )
-    .join("");
+  imageCloud.innerHTML = markup;
+  panelImages.innerHTML = markup;
   positionImageCloud(card);
   positionReadingPanel(card);
   imageCloud.classList.add("show");
 }
 
 function positionReadingPanel(card) {
-  if (window.matchMedia("(max-width: 860px)").matches) {
+  if (window.matchMedia("(max-width: 1180px)").matches) {
     readingPanel.style.setProperty("--panel-offset", "0px");
     return;
   }
@@ -555,7 +562,11 @@ function positionReadingPanel(card) {
 }
 
 function positionImageCloud(card) {
-  if (window.matchMedia("(max-width: 860px)").matches) return;
+  if (window.matchMedia("(max-width: 1180px)").matches) {
+    imageCloud.style.left = "";
+    imageCloud.style.top = "";
+    return;
+  }
   const rect = card.getBoundingClientRect();
   const cloudWidth = Math.min(window.innerWidth * 0.44, 560);
   const rightSpace = window.innerWidth - rect.right;
@@ -665,6 +676,16 @@ timelineList.addEventListener("click", (event) => {
 });
 
 imageCloud.addEventListener(
+  "error",
+  (event) => {
+    const image = event.target.closest("img");
+    const frame = event.target.closest(".floating-image");
+    if (image && frame) frame.classList.add("image-error");
+  },
+  true
+);
+
+panelImages.addEventListener(
   "error",
   (event) => {
     const image = event.target.closest("img");
