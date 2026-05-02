@@ -785,10 +785,12 @@ body[data-theme="dark"] .floating-image figcaption {
   }
 
   .reading-panel {
+    position: relative;
     top: 4.75rem;
-    max-height: min(42vh, 25rem);
+    top: auto;
+    max-height: none;
     min-height: 0;
-    overflow: auto;
+    overflow: visible;
     transform: none;
   }
 
@@ -805,6 +807,7 @@ body[data-theme="dark"] .floating-image figcaption {
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 0.65rem;
     margin-top: 1rem;
+    justify-items: center;
   }
 
   .panel-images .floating-image,
@@ -814,6 +817,7 @@ body[data-theme="dark"] .floating-image figcaption {
     left: auto;
     top: auto;
     width: 100%;
+    max-width: 18rem;
     min-height: 8.5rem;
     transform: none;
     animation: none;
@@ -886,11 +890,13 @@ body[data-theme="dark"] .floating-image figcaption {
   .panel-images {
     grid-template-columns: 1fr;
     gap: 0.7rem;
+    justify-items: center;
   }
 
   .panel-images .floating-image,
   .panel-images .floating-image:nth-child(2),
   .panel-images .floating-image:nth-child(3) {
+    width: min(100%, 22rem);
     min-height: 13.5rem;
   }
 
