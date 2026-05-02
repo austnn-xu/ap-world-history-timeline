@@ -549,7 +549,7 @@ function setActive(card) {
 }
 
 function positionReadingPanel(card) {
-  if (window.matchMedia("(max-width: 1180px)").matches) {
+  if (window.matchMedia("(max-width: 1300px), (pointer: coarse), (hover: none)").matches) {
     readingPanel.style.setProperty("--panel-offset", "0px");
     return;
   }
@@ -562,7 +562,7 @@ function positionReadingPanel(card) {
 }
 
 function positionImageCloud(card) {
-  if (window.matchMedia("(max-width: 1180px)").matches) {
+  if (window.matchMedia("(max-width: 1300px), (pointer: coarse), (hover: none)").matches) {
     imageCloud.style.left = "";
     imageCloud.style.top = "";
     return;
