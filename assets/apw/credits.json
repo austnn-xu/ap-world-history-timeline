@@ -27,6 +27,15 @@
         "license":  "Public domain"
     },
     {
+        "name":  "inca-terraces",
+        "query":  "Inca terraces Andes",
+        "file":  "assets/apw/inca-terraces.jpg",
+        "sourceTitle":  "File:Lands of the Andes and the Desert.djvu",
+        "sourceUrl":  "https://commons.wikimedia.org/wiki/File:Lands_of_the_Andes_and_the_Desert.djvu",
+        "artist":  "\nFrank George Carpenter",
+        "license":  "Public domain"
+    },
+    {
         "name":  "silk-road-caravan",
         "query":  "Silk Road caravan",
         "file":  "assets/apw/silk-road-caravan.jpg",
@@ -34,6 +43,15 @@
         "sourceUrl":  "https://commons.wikimedia.org/wiki/File:Catalan_Atlas_caravan_drawing.jpg",
         "artist":  "w:Abraham Cresques",
         "license":  "Public domain"
+    },
+    {
+        "name":  "mongol-empire-map",
+        "query":  "Mongol Empire map",
+        "file":  "assets/apw/mongol-empire-map.jpg",
+        "sourceTitle":  "File:British Empire and Mongol Empire.svg",
+        "sourceUrl":  "https://commons.wikimedia.org/wiki/File:British_Empire_and_Mongol_Empire.svg",
+        "artist":  "DannamEmpire",
+        "license":  "CC BY 4.0"
     },
     {
         "name":  "black-death",
@@ -51,6 +69,15 @@
         "sourceTitle":  "File:00.Ottoman Empire in 1566 Suleiman the Magnificent.00.jpg",
         "sourceUrl":  "https://commons.wikimedia.org/wiki/File:00.Ottoman_Empire_in_1566_Suleiman_the_Magnificent.00.jpg",
         "artist":  "flag_mapper",
+        "license":  "CC BY-SA 4.0"
+    },
+    {
+        "name":  "safavid-isfahan",
+        "query":  "Shah Mosque Isfahan",
+        "file":  "assets/apw/safavid-isfahan.jpg",
+        "sourceTitle":  "File:Frame in the frame of Imam Mosque of Isfahan.jpg",
+        "sourceUrl":  "https://commons.wikimedia.org/wiki/File:Frame_in_the_frame_of_Imam_Mosque_of_Isfahan.jpg",
+        "artist":  "Yare zaman2000",
         "license":  "CC BY-SA 4.0"
     }
 ]

@@ -64,12 +64,28 @@
         "description":  "Manchu-led dynasty of China (1644–1912)"
     },
     {
-        "name":  "haitian-revolution",
-        "page":  "Haitian_Revolution",
-        "file":  "assets/wiki/haitian-revolution.jpg",
-        "sourceUrl":  "https://en.wikipedia.org/wiki/Haitian_Revolution",
-        "title":  "Haitian Revolution",
-        "description":  "1791–1804 slave revolt in Hispanola"
+        "name":  "atlantic-slave-trade",
+        "page":  "Atlantic_slave_trade",
+        "file":  "assets/wiki/atlantic-slave-trade.jpg",
+        "sourceUrl":  "https://en.wikipedia.org/wiki/Atlantic_slave_trade",
+        "title":  "Atlantic slave trade",
+        "description":  "Slave trade between Africa and the West"
+    },
+    {
+        "name":  "french-revolution",
+        "page":  "French_Revolution",
+        "file":  "assets/wiki/french-revolution.jpg",
+        "sourceUrl":  "https://en.wikipedia.org/wiki/French_Revolution",
+        "title":  "French Revolution",
+        "description":  "1789–1799 sociopolitical change in France"
+    },
+    {
+        "name":  "simon-bolivar",
+        "page":  "Simon_Bolivar",
+        "file":  "assets/wiki/simon-bolivar.png",
+        "sourceUrl":  "https://en.wikipedia.org/wiki/Sim%C3%B3n_Bol%C3%ADvar",
+        "title":  "Simón Bolívar",
+        "description":  "Venezuelan statesman and military officer (1783–1830)"
     },
     {
         "name":  "meiji-restoration",
@@ -78,6 +94,30 @@
         "sourceUrl":  "https://en.wikipedia.org/wiki/Meiji_Restoration",
         "title":  "Meiji Restoration",
         "description":  "1868 return to imperial rule in Japan"
+    },
+    {
+        "name":  "scramble-for-africa",
+        "page":  "Scramble_for_Africa",
+        "file":  "assets/wiki/scramble-for-africa.png",
+        "sourceUrl":  "https://en.wikipedia.org/wiki/Scramble_for_Africa",
+        "title":  "Scramble for Africa",
+        "description":  "1870s–1914 European colonisation of Africa"
+    },
+    {
+        "name":  "indian-rebellion",
+        "page":  "Indian_Rebellion_of_1857",
+        "file":  "assets/wiki/indian-rebellion.jpg",
+        "sourceUrl":  "https://en.wikipedia.org/wiki/Indian_Rebellion_of_1857",
+        "title":  "Indian Rebellion of 1857",
+        "description":  "Uprising against British Company rule"
+    },
+    {
+        "name":  "vladimir-lenin",
+        "page":  "Vladimir_Lenin",
+        "file":  "assets/wiki/vladimir-lenin.jpg",
+        "sourceUrl":  "https://en.wikipedia.org/wiki/Vladimir_Lenin",
+        "title":  "Vladimir Lenin",
+        "description":  "Leader of the Soviet Union from 1922 to 1924"
     },
     {
         "name":  "great-depression",
@@ -112,14 +152,6 @@
         "description":  "1947 division of British India"
     },
     {
-        "name":  "non-aligned",
-        "page":  "Non-Aligned_Movement",
-        "file":  "assets/wiki/non-aligned.png",
-        "sourceUrl":  "https://en.wikipedia.org/wiki/Non-Aligned_Movement",
-        "title":  "Non-Aligned Movement",
-        "description":  "Group of countries not in major power blocs"
-    },
-    {
         "name":  "globalization",
         "page":  "Globalization",
         "file":  "assets/wiki/globalization.png",
@@ -128,35 +160,11 @@
         "description":  "Spread of world views, products, ideas, capital and labor"
     },
     {
-        "name":  "green-revolution",
-        "page":  "Green_Revolution",
-        "file":  "assets/wiki/green-revolution.png",
-        "sourceUrl":  "https://en.wikipedia.org/wiki/Green_Revolution",
-        "title":  "Green Revolution",
-        "description":  "Agricultural developments in 1950s–1960s"
-    },
-    {
-        "name":  "sputnik",
-        "page":  "Sputnik_1",
-        "file":  "assets/wiki/sputnik.jpg",
-        "sourceUrl":  "https://en.wikipedia.org/wiki/Sputnik_1",
-        "title":  "Sputnik 1",
-        "description":  "First artificial Earth satellite"
-    },
-    {
         "name":  "container-ship",
         "page":  "Container_ship",
         "file":  "assets/wiki/container-ship.jpg",
         "sourceUrl":  "https://en.wikipedia.org/wiki/Container_ship",
         "title":  "Container ship",
         "description":  "Ship that carries cargo in intermodal containers"
-    },
-    {
-        "name":  "climate-change",
-        "page":  "Climate_change",
-        "file":  "assets/wiki/climate-change.png",
-        "sourceUrl":  "https://en.wikipedia.org/wiki/Climate_change",
-        "title":  "Climate change",
-        "description":  "Human-caused changes to climate on Earth"
     }
 ]

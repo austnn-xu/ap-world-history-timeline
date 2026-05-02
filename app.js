@@ -805,96 +805,132 @@ const floatingLayouts = [
 const imageAssets = {
   songCity: { src: "assets/apw/song-china-city.jpg", label: "Song China city life", tone: "#00d7ff", focus: "50% 45%" },
   songMap: { src: "assets/wiki/song-dynasty.png", label: "Song dynasty", tone: "#00d7ff", focus: "50% 45%" },
+  songScroll: { src: "assets/unit1.jpg", label: "Song-era city scene", tone: "#73ff9b", focus: "50% 46%" },
   djenne: { src: "assets/wiki/great-mosque-djenne.jpg", label: "Great Mosque of Djenne", tone: "#73ff9b", focus: "50% 48%" },
+  djenneWide: { src: "assets/apw/great-mosque-djenne.jpg", label: "Djenne mosque architecture", tone: "#73ff9b", focus: "50% 48%" },
+  delhiSultanate: { src: "assets/wiki/delhi-sultanate.png", label: "Delhi Sultanate", tone: "#8d7cff", focus: "50% 50%" },
+  swahiliCoast: { src: "assets/wiki/swahili-coast.png", label: "Swahili Coast", tone: "#00c2a8", focus: "50% 50%" },
   mansaMusa: { src: "assets/wiki/mansa-musa.jpg", label: "Mansa Musa", tone: "#ffb23f", focus: "50% 42%" },
+  mansaManuscript: { src: "assets/apw/mansa-musa.jpg", label: "Mansa Musa manuscript", tone: "#ffb23f", focus: "50% 42%" },
   inca: { src: "assets/wiki/inca-empire.png", label: "Inca Empire", tone: "#8d7cff", focus: "50% 50%" },
+  incaTerraces: { src: "assets/apw/inca-terraces.jpg", label: "Andean terrace farming", tone: "#73ff9b", focus: "50% 48%" },
+  aztecEmpire: { src: "assets/wiki/aztec-empire.png", label: "Aztec Empire map", tone: "#ffb23f", focus: "50% 50%" },
   silkRoad: { src: "assets/wiki/silk-road.png", label: "Silk Road", tone: "#73ff9b", focus: "50% 50%" },
   caravan: { src: "assets/apw/silk-road-caravan.jpg", label: "Silk Road caravan", tone: "#ffb23f", focus: "50% 45%" },
+  ibnBattuta: { src: "assets/wiki/ibn-battuta.jpg", label: "Ibn Battuta", tone: "#00d7ff", focus: "50% 42%" },
+  mongolMap: { src: "assets/apw/mongol-empire-map.jpg", label: "Mongol Empire map", tone: "#8d7cff", focus: "50% 50%" },
   blackDeath: { src: "assets/wiki/black-death.png", label: "Black Death", tone: "#8d7cff", focus: "50% 42%" },
   blackDeathManuscript: { src: "assets/apw/black-death.jpg", label: "Plague manuscript", tone: "#ff5f57", focus: "50% 40%" },
   ottoman: { src: "assets/apw/ottoman-sultan.jpg", label: "Ottoman sultan", tone: "#8d7cff", focus: "45% 35%" },
   safavid: { src: "assets/wiki/safavid-iran.png", label: "Safavid Iran", tone: "#00d7ff", focus: "50% 50%" },
+  safavidIsfahan: { src: "assets/apw/safavid-isfahan.jpg", label: "Safavid Isfahan", tone: "#00d7ff", focus: "50% 48%" },
+  mughalEmpire: { src: "assets/wiki/mughal-empire.jpg", label: "Mughal Empire", tone: "#ffb23f", focus: "50% 45%" },
   tajMahal: { src: "assets/unit3b.jpg", label: "Taj Mahal", tone: "#ffb23f", focus: "50% 46%" },
   qing: { src: "assets/wiki/qing-dynasty.png", label: "Qing dynasty", tone: "#73ff9b", focus: "50% 50%" },
+  tokugawa: { src: "assets/wiki/tokugawa-shogunate.png", label: "Tokugawa shogunate", tone: "#73ff9b", focus: "50% 50%" },
+  portugueseEmpire: { src: "assets/wiki/portuguese-empire.png", label: "Portuguese Empire", tone: "#00d7ff", focus: "50% 50%" },
+  columbianExchange: { src: "assets/wiki/columbian-exchange.jpg", label: "Columbian Exchange", tone: "#73ff9b", focus: "50% 48%" },
   oceanEmpire: { src: "assets/unit6b.jpg", label: "Imperial maritime conflict", tone: "#00d7ff", focus: "52% 40%" },
-  silverEmpire: { src: "assets/unit3b.jpg", label: "Silver and empire", tone: "#ff4fd8", focus: "50% 46%" },
+  potosi: { src: "assets/wiki/potosi.jpg", label: "Potosi silver mines", tone: "#ff4fd8", focus: "50% 48%" },
+  manilaGalleon: { src: "assets/wiki/manila-galleon.jpg", label: "Manila galleon trade", tone: "#00d7ff", focus: "50% 50%" },
+  silverEmpire: { src: "assets/wiki/potosi.jpg", label: "Silver and empire", tone: "#ff4fd8", focus: "50% 48%" },
   coercedLabor: { src: "assets/unit7.jpg", label: "Coerced labor and empire", tone: "#ff5f57", focus: "50% 42%" },
-  frenchRevolution: { src: "assets/unit5.jpg", label: "French Revolution", tone: "#ffb23f", focus: "48% 42%" },
+  atlanticSlaveTrade: { src: "assets/wiki/atlantic-slave-trade.jpg", label: "Atlantic slave trade", tone: "#ff5f57", focus: "50% 45%" },
+  brookesSlaveShip: { src: "assets/wiki/brookes-slave-ship.jpg", label: "Slave ship diagram", tone: "#ff5f57", focus: "50% 45%" },
+  americanRevolution: { src: "assets/wiki/american-revolution.jpg", label: "American Revolution", tone: "#2f80ed", focus: "50% 42%" },
+  bastille: { src: "assets/wiki/bastille.jpg", label: "Storming of the Bastille", tone: "#ffb23f", focus: "50% 42%" },
+  rightsOfMan: { src: "assets/wiki/rights-of-man.jpg", label: "Rights of Man", tone: "#00d7ff", focus: "50% 45%" },
+  frenchRevolution: { src: "assets/wiki/french-revolution.jpg", label: "French Revolution", tone: "#ffb23f", focus: "48% 42%" },
+  frenchRevolutionCrowd: { src: "assets/unit5.jpg", label: "French revolutionary crowd", tone: "#ffb23f", focus: "48% 42%" },
   haitian: { src: "assets/wiki/haitian-revolution.jpg", label: "Haitian Revolution", tone: "#ff5f57", focus: "50% 42%" },
+  simonBolivar: { src: "assets/wiki/simon-bolivar.png", label: "Simon Bolivar", tone: "#ffb23f", focus: "50% 42%" },
   spinningJenny: { src: "assets/unit5b.jpg", label: "Spinning jenny", tone: "#00c2a8", focus: "52% 50%" },
+  industrialRevolution: { src: "assets/wiki/industrial-revolution.jpg", label: "Industrial Revolution", tone: "#00c2a8", focus: "50% 45%" },
   crystalPalace: { src: "assets/unit6.jpg", label: "Industrial exhibition", tone: "#73ff9b", focus: "50% 48%" },
   meiji: { src: "assets/wiki/meiji-restoration.jpg", label: "Meiji Restoration", tone: "#ffb23f", focus: "50% 42%" },
   opiumWar: { src: "assets/unit6b.jpg", label: "Opium War", tone: "#8d7cff", focus: "52% 40%" },
   industrialMachine: { src: "assets/unit5b.jpg", label: "Industrial machinery", tone: "#00c2a8", focus: "35% 50%" },
-  wwi: { src: "assets/unit7.jpg", label: "World War I front", tone: "#ff5f57", focus: "50% 42%" },
+  scrambleAfrica: { src: "assets/wiki/scramble-for-africa.png", label: "Scramble for Africa", tone: "#ffb23f", focus: "50% 50%" },
+  indianRebellion: { src: "assets/wiki/indian-rebellion.jpg", label: "Indian Rebellion", tone: "#ff5f57", focus: "50% 42%" },
+  wwi: { src: "assets/wiki/wwi-trench.jpg", label: "World War I trench", tone: "#ff5f57", focus: "50% 42%" },
+  treatyVersailles: { src: "assets/wiki/treaty-versailles.jpg", label: "Treaty of Versailles", tone: "#ffb23f", focus: "50% 42%" },
+  vladimirLenin: { src: "assets/wiki/vladimir-lenin.jpg", label: "Vladimir Lenin", tone: "#ff5f57", focus: "50% 42%" },
   depression: { src: "assets/wiki/great-depression.jpg", label: "Great Depression", tone: "#8d7cff", focus: "50% 40%" },
   holocaust: { src: "assets/wiki/the-holocaust.jpg", label: "Holocaust memorial context", tone: "#ff5f57", focus: "50% 44%" },
+  worldWarII: { src: "assets/wiki/world-war-ii.jpg", label: "World War II", tone: "#ff5f57", focus: "50% 44%" },
   berlinWall: { src: "assets/unit8.jpg", label: "Berlin Wall", tone: "#00d7ff", focus: "50% 42%" },
+  unitedNations: { src: "assets/wiki/un-general-assembly.jpg", label: "United Nations", tone: "#2f80ed", focus: "50% 45%" },
   coldWar: { src: "assets/wiki/cold-war.png", label: "Cold War", tone: "#2f80ed", focus: "50% 50%" },
+  maoZedong: { src: "assets/wiki/mao-zedong.jpg", label: "Mao Zedong", tone: "#ff5f57", focus: "50% 42%" },
   partition: { src: "assets/wiki/partition-india.jpg", label: "Partition of India", tone: "#ffb23f", focus: "50% 40%" },
   nonAligned: { src: "assets/wiki/non-aligned.png", label: "Non-Aligned Movement", tone: "#73ff9b", focus: "50% 50%" },
+  bandungConference: { src: "assets/wiki/bandung-conference.png", label: "Bandung Conference", tone: "#73ff9b", focus: "50% 50%" },
   globalization: { src: "assets/wiki/globalization.png", label: "Globalization", tone: "#2f80ed", focus: "50% 50%" },
   greenRevolution: { src: "assets/wiki/green-revolution.png", label: "Green Revolution", tone: "#73ff9b", focus: "50% 50%" },
   sputnik: { src: "assets/wiki/sputnik.jpg", label: "Satellite technology", tone: "#00d7ff", focus: "50% 50%" },
+  humanRights: { src: "assets/wiki/human-rights.jpg", label: "Human rights", tone: "#ff4fd8", focus: "50% 46%" },
   containerShip: { src: "assets/wiki/container-ship.jpg", label: "Container shipping", tone: "#00c2a8", focus: "50% 45%" },
   climate: { src: "assets/wiki/climate-change.png", label: "Climate change", tone: "#73ff9b", focus: "50% 50%" }
 };
 
 const assetPool = Object.values(imageAssets);
 
-const unitVisualSets = {
-  1: [imageAssets.songCity, imageAssets.songMap, imageAssets.djenne, imageAssets.mansaMusa, imageAssets.inca],
-  2: [imageAssets.silkRoad, imageAssets.caravan, imageAssets.blackDeath, imageAssets.blackDeathManuscript, imageAssets.songCity],
-  3: [imageAssets.ottoman, imageAssets.safavid, imageAssets.tajMahal, imageAssets.qing, imageAssets.songMap],
-  4: [imageAssets.oceanEmpire, imageAssets.silverEmpire, imageAssets.coercedLabor, imageAssets.containerShip, imageAssets.djenne],
-  5: [imageAssets.frenchRevolution, imageAssets.haitian, imageAssets.spinningJenny, imageAssets.crystalPalace, imageAssets.mansaMusa],
-  6: [imageAssets.crystalPalace, imageAssets.meiji, imageAssets.opiumWar, imageAssets.industrialMachine, imageAssets.qing],
-  7: [imageAssets.wwi, imageAssets.depression, imageAssets.holocaust, imageAssets.berlinWall, imageAssets.frenchRevolution],
-  8: [imageAssets.coldWar, imageAssets.partition, imageAssets.nonAligned, imageAssets.berlinWall, imageAssets.haitian],
-  9: [imageAssets.globalization, imageAssets.greenRevolution, imageAssets.sputnik, imageAssets.containerShip, imageAssets.climate]
+const topicImageSets = {
+  "1-0": [imageAssets.songCity, imageAssets.songMap, imageAssets.songScroll],
+  "1-1": [imageAssets.djenne, imageAssets.djenneWide, imageAssets.mansaManuscript],
+  "1-2": [imageAssets.delhiSultanate, imageAssets.tajMahal, imageAssets.safavidIsfahan],
+  "1-3": [imageAssets.mansaMusa, imageAssets.mansaManuscript, imageAssets.djenneWide],
+  "1-4": [imageAssets.swahiliCoast, imageAssets.djenne, imageAssets.caravan],
+  "1-5": [imageAssets.aztecEmpire, imageAssets.inca, imageAssets.incaTerraces],
+  "2-0": [imageAssets.silkRoad, imageAssets.caravan, imageAssets.mongolMap],
+  "2-1": [imageAssets.mongolMap, imageAssets.caravan, imageAssets.silkRoad],
+  "2-2": [imageAssets.caravan, imageAssets.silkRoad, imageAssets.containerShip],
+  "2-3": [imageAssets.mansaManuscript, imageAssets.djenneWide, imageAssets.caravan],
+  "2-4": [imageAssets.ibnBattuta, imageAssets.caravan, imageAssets.silkRoad],
+  "2-5": [imageAssets.blackDeath, imageAssets.blackDeathManuscript, imageAssets.silkRoad],
+  "3-0": [imageAssets.ottoman, imageAssets.safavidIsfahan, imageAssets.oceanEmpire],
+  "3-1": [imageAssets.safavid, imageAssets.safavidIsfahan, imageAssets.ottoman],
+  "3-2": [imageAssets.mughalEmpire, imageAssets.tajMahal, imageAssets.safavidIsfahan],
+  "3-3": [imageAssets.qing, imageAssets.songMap, imageAssets.safavid],
+  "3-4": [imageAssets.mongolMap, imageAssets.qing, imageAssets.ottoman],
+  "3-5": [imageAssets.tokugawa, imageAssets.qing, imageAssets.songMap],
+  "4-0": [imageAssets.portugueseEmpire, imageAssets.oceanEmpire, imageAssets.silkRoad],
+  "4-1": [imageAssets.columbianExchange, imageAssets.aztecEmpire, imageAssets.inca],
+  "4-2": [imageAssets.aztecEmpire, imageAssets.inca, imageAssets.oceanEmpire],
+  "4-3": [imageAssets.atlanticSlaveTrade, imageAssets.brookesSlaveShip, imageAssets.mansaManuscript],
+  "4-4": [imageAssets.potosi, imageAssets.manilaGalleon, imageAssets.qing],
+  "4-5": [imageAssets.manilaGalleon, imageAssets.portugueseEmpire, imageAssets.containerShip],
+  "5-0": [imageAssets.rightsOfMan, imageAssets.bastille, imageAssets.frenchRevolution],
+  "5-1": [imageAssets.americanRevolution, imageAssets.rightsOfMan, imageAssets.frenchRevolution],
+  "5-2": [imageAssets.frenchRevolution, imageAssets.bastille, imageAssets.rightsOfMan],
+  "5-3": [imageAssets.haitian, imageAssets.atlanticSlaveTrade, imageAssets.frenchRevolution],
+  "5-4": [imageAssets.simonBolivar, imageAssets.americanRevolution, imageAssets.frenchRevolution],
+  "5-5": [imageAssets.industrialRevolution, imageAssets.spinningJenny, imageAssets.crystalPalace],
+  "6-0": [imageAssets.crystalPalace, imageAssets.industrialRevolution, imageAssets.spinningJenny],
+  "6-1": [imageAssets.meiji, imageAssets.qing, imageAssets.crystalPalace],
+  "6-2": [imageAssets.scrambleAfrica, imageAssets.oceanEmpire, imageAssets.atlanticSlaveTrade],
+  "6-3": [imageAssets.opiumWar, imageAssets.qing, imageAssets.oceanEmpire],
+  "6-4": [imageAssets.indianRebellion, imageAssets.tajMahal, imageAssets.partition],
+  "6-5": [imageAssets.containerShip, imageAssets.crystalPalace, imageAssets.atlanticSlaveTrade],
+  "7-0": [imageAssets.wwi, imageAssets.ottoman, imageAssets.mongolMap],
+  "7-1": [imageAssets.vladimirLenin, imageAssets.wwi, imageAssets.depression],
+  "7-2": [imageAssets.treatyVersailles, imageAssets.wwi, imageAssets.vladimirLenin],
+  "7-3": [imageAssets.depression, imageAssets.industrialMachine, imageAssets.containerShip],
+  "7-4": [imageAssets.worldWarII, imageAssets.holocaust, imageAssets.berlinWall],
+  "7-5": [imageAssets.holocaust, imageAssets.wwi, imageAssets.depression],
+  "8-0": [imageAssets.unitedNations, imageAssets.coldWar, imageAssets.humanRights],
+  "8-1": [imageAssets.coldWar, imageAssets.berlinWall, imageAssets.sputnik],
+  "8-2": [imageAssets.maoZedong, imageAssets.coldWar, imageAssets.qing],
+  "8-3": [imageAssets.partition, imageAssets.indianRebellion, imageAssets.simonBolivar],
+  "8-4": [imageAssets.scrambleAfrica, imageAssets.nonAligned, imageAssets.mansaMusa],
+  "8-5": [imageAssets.bandungConference, imageAssets.nonAligned, imageAssets.coldWar],
+  "9-0": [imageAssets.globalization, imageAssets.containerShip, imageAssets.coldWar],
+  "9-1": [imageAssets.greenRevolution, imageAssets.incaTerraces, imageAssets.containerShip],
+  "9-2": [imageAssets.sputnik, imageAssets.globalization, imageAssets.containerShip],
+  "9-3": [imageAssets.humanRights, imageAssets.nonAligned, imageAssets.partition],
+  "9-4": [imageAssets.climate, imageAssets.greenRevolution, imageAssets.containerShip],
+  "9-5": [imageAssets.globalization, imageAssets.containerShip, imageAssets.partition]
 };
-
-const topicImageRules = [
-  { terms: ["song"], image: imageAssets.songCity },
-  { terms: ["dar al-islam", "islamic", "swahili"], image: imageAssets.djenne },
-  { terms: ["mali", "mansa"], image: imageAssets.mansaMusa },
-  { terms: ["mesoamerican", "andean", "inca"], image: imageAssets.inca },
-  { terms: ["silk"], image: imageAssets.silkRoad },
-  { terms: ["mongol"], image: imageAssets.caravan },
-  { terms: ["indian ocean", "trans-saharan", "travelers"], image: imageAssets.caravan },
-  { terms: ["black death"], image: imageAssets.blackDeath },
-  { terms: ["ottoman", "constantinople"], image: imageAssets.ottoman },
-  { terms: ["safavid"], image: imageAssets.safavid },
-  { terms: ["mughal"], image: imageAssets.tajMahal },
-  { terms: ["qing"], image: imageAssets.qing },
-  { terms: ["tokugawa", "russian"], image: imageAssets.qing },
-  { terms: ["portuguese", "columbian", "spanish conquest"], image: imageAssets.oceanEmpire },
-  { terms: ["slave", "plantation"], image: imageAssets.coercedLabor },
-  { terms: ["silver", "joint-stock", "mercantilism"], image: imageAssets.silverEmpire },
-  { terms: ["enlightenment", "american revolution", "french revolution"], image: imageAssets.frenchRevolution },
-  { terms: ["haitian"], image: imageAssets.haitian },
-  { terms: ["latin american"], image: imageAssets.frenchRevolution },
-  { terms: ["industrial revolution"], image: imageAssets.spinningJenny },
-  { terms: ["second industrial", "labor reforms"], image: imageAssets.crystalPalace },
-  { terms: ["meiji"], image: imageAssets.meiji },
-  { terms: ["imperialism"], image: imageAssets.oceanEmpire },
-  { terms: ["opium"], image: imageAssets.opiumWar },
-  { terms: ["indian rebellion"], image: imageAssets.partition },
-  { terms: ["world war i"], image: imageAssets.wwi },
-  { terms: ["russian revolution", "treaty"], image: imageAssets.wwi },
-  { terms: ["great depression"], image: imageAssets.depression },
-  { terms: ["world war ii"], image: imageAssets.wwi },
-  { terms: ["holocaust"], image: imageAssets.holocaust },
-  { terms: ["united nations", "cold war blocs"], image: imageAssets.coldWar },
-  { terms: ["chinese communist"], image: imageAssets.coldWar },
-  { terms: ["indian independence", "partition"], image: imageAssets.partition },
-  { terms: ["african decolonization", "non-aligned"], image: imageAssets.nonAligned },
-  { terms: ["postwar economic", "global popular", "globalization"], image: imageAssets.globalization },
-  { terms: ["green revolution"], image: imageAssets.greenRevolution },
-  { terms: ["digital", "communications"], image: imageAssets.sputnik },
-  { terms: ["human rights"], image: imageAssets.nonAligned },
-  { terms: ["environmental"], image: imageAssets.climate }
-];
 
 const searchHints = [
   { terms: ["lenin", "bolshevik", "russian revolution", "stalin", "ussr", "communism", "versailles", "fascism", "hitler", "holocaust", "world war", "depression"], unit: 7 },
@@ -927,6 +963,7 @@ const searchForm = document.querySelector("#searchForm");
 const timelineSearch = document.querySelector("#timelineSearch");
 const searchResult = document.querySelector("#searchResult");
 const readingPanel = document.querySelector(".reading-panel");
+const lineWrap = document.querySelector(".line-wrap");
 let pinnedCard = null;
 
 function iconSvg(name) {
@@ -934,17 +971,16 @@ function iconSvg(name) {
 }
 
 function topicVisuals(unit, topicTitle, topicIndex) {
-  const loweredTitle = topicTitle.toLowerCase();
-  const set = unitVisualSets[unit.id] || assetPool;
-  const primary =
-    topicImageRules.find((rule) => rule.terms.some((term) => loweredTitle.includes(term)))?.image ||
-    set[topicIndex % set.length];
+  const assigned = topicImageSets[`${unit.id}-${topicIndex}`] || [];
+  const visuals = [];
 
-  const context = set.filter((image) => image.src !== primary.src);
-  const second = context[topicIndex % context.length] || set[(topicIndex + 1) % set.length] || primary;
-  const third = context[(topicIndex + 1) % context.length] || set[(topicIndex + 2) % set.length] || primary;
+  [...assigned, ...assetPool].forEach((image) => {
+    if (image && visuals.length < 3 && !visuals.some((visual) => visual.src === image.src)) {
+      visuals.push(image);
+    }
+  });
 
-  return [primary, second, third];
+  return visuals;
 }
 
 function visualMarkup(visuals, layout) {
@@ -1039,7 +1075,7 @@ function setActive(card) {
 }
 
 function positionReadingPanel(card) {
-  if (window.matchMedia("(max-width: 1300px), (pointer: coarse), (hover: none)").matches) {
+  if (window.matchMedia("(max-width: 720px), (pointer: coarse), (hover: none)").matches) {
     readingPanel.style.setProperty("--panel-offset", "0px");
     return;
   }
@@ -1052,17 +1088,22 @@ function positionReadingPanel(card) {
 }
 
 function positionImageCloud(card) {
-  if (window.matchMedia("(max-width: 1300px), (pointer: coarse), (hover: none)").matches) {
+  if (window.matchMedia("(max-width: 720px), (pointer: coarse), (hover: none)").matches || !lineWrap) {
     imageCloud.style.left = "";
     imageCloud.style.top = "";
     return;
   }
+  const wrapRect = lineWrap.getBoundingClientRect();
   const rect = card.getBoundingClientRect();
-  const cloudWidth = Math.min(window.innerWidth * 0.44, 560);
-  const rightSpace = window.innerWidth - rect.right;
-  const left = rightSpace > cloudWidth + 28 ? rect.right + 24 : Math.max(18, rect.left - cloudWidth - 24);
-  const maxTop = Math.max(92, window.innerHeight - 455);
-  const top = Math.min(Math.max(rect.top - 42, 92), maxTop);
+  const cloudWidth = imageCloud.offsetWidth || Math.min(window.innerWidth * 0.28, 420);
+  const cloudHeight = imageCloud.offsetHeight || 360;
+  const cardLeft = rect.left - wrapRect.left;
+  const cardTop = rect.top - wrapRect.top;
+  const desiredLeft = cardLeft + rect.width + 22;
+  const maxLeft = Math.max(cardLeft + 18, lineWrap.clientWidth - cloudWidth - 4);
+  const left = Math.min(desiredLeft, maxLeft);
+  const maxTop = Math.max(0, lineWrap.offsetHeight - cloudHeight - 16);
+  const top = Math.min(Math.max(cardTop - 42, 0), maxTop);
   imageCloud.style.left = `${left}px`;
   imageCloud.style.top = `${top}px`;
 }
