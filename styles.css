@@ -828,6 +828,45 @@ body[data-theme="dark"] .floating-image figcaption {
   }
 }
 
+@media (min-width: 860px) and (max-width: 1300px) {
+  .timeline-shell {
+    grid-template-columns: minmax(270px, 350px) minmax(0, 1fr);
+    gap: clamp(1rem, 3vw, 2rem);
+    max-width: 1180px;
+  }
+
+  .reading-panel {
+    position: sticky;
+    top: 5rem;
+    max-height: calc(100svh - 6rem);
+    overflow: auto;
+    padding: 1rem;
+  }
+
+  .reading-panel h2 {
+    font-size: clamp(1.35rem, 2.6vw, 1.85rem);
+  }
+
+  .reading-panel p {
+    line-height: 1.5;
+  }
+
+  .panel-images {
+    grid-template-columns: 1fr;
+  }
+
+  .panel-images .floating-image,
+  .panel-images .floating-image:nth-child(2),
+  .panel-images .floating-image:nth-child(3) {
+    max-width: 100%;
+    min-height: 8rem;
+  }
+
+  .study-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (max-width: 720px) {
   .topbar {
     padding: 0.75rem 1rem;
