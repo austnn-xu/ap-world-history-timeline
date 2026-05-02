@@ -295,6 +295,495 @@ const studyNotes = {
   }
 };
 
+const topicDetails = {
+  "1-0": {
+    points: [
+      "Song rulers relied on a large scholar-bureaucracy and civil service exams to manage the state.",
+      "Champa rice, commercialization, paper money, and urban growth made Song China a major economic center.",
+      "Technologies such as gunpowder, printing, and compass navigation later spread through exchange networks."
+    ],
+    vocab: ["civil service exam", "scholar-gentry", "Neo-Confucianism", "Champa rice", "paper money"],
+    remember: "Song China is a model example of bureaucracy plus economic innovation strengthening a state."
+  },
+  "1-1": {
+    points: [
+      "Dar al-Islam was not one empire; it was a wider Islamic world connected by trade, scholarship, and religion.",
+      "Merchants, ulama, Sufi missionaries, and madrasas helped spread Islamic beliefs and practices.",
+      "Islamic networks connected West Africa, the Middle East, South Asia, and Southeast Asia."
+    ],
+    vocab: ["Dar al-Islam", "ulama", "Sufism", "madrasa", "sharia"],
+    remember: "Think of Dar al-Islam as a cultural and commercial network, not just a political state."
+  },
+  "1-2": {
+    points: [
+      "The Delhi Sultanate brought Turkic Muslim rule into northern India and changed regional politics.",
+      "It did not erase Hindu traditions; instead, South Asia became a place of interaction and tension among traditions.",
+      "The sultanate shows how conquest can create new political systems while older cultures continue."
+    ],
+    vocab: ["Delhi Sultanate", "sultan", "jizya", "Hinduism", "South Asia"],
+    remember: "Use the Delhi Sultanate to discuss cultural interaction, religious diversity, and state building."
+  },
+  "1-3": {
+    points: [
+      "Mali grew wealthy because it controlled gold fields and important trans-Saharan trade routes.",
+      "Mansa Musa's pilgrimage showed Mali's wealth and increased Islamic connections to West Africa.",
+      "Cities such as Timbuktu became centers of trade, scholarship, and Islamic learning."
+    ],
+    vocab: ["Mali", "Mansa Musa", "Timbuktu", "gold-salt trade", "trans-Saharan trade"],
+    remember: "Mali is the go-to example for wealth, Islam, and trade in medieval West Africa."
+  },
+  "1-4": {
+    points: [
+      "Swahili city-states grew because of Indian Ocean trade in gold, ivory, textiles, and other goods.",
+      "Swahili culture blended Bantu African roots with Arab, Persian, and Islamic influences.",
+      "Cities such as Kilwa and Mombasa were independent commercial centers rather than one unified empire."
+    ],
+    vocab: ["Swahili", "Kilwa", "Mombasa", "dhows", "Indian Ocean trade"],
+    remember: "Swahili city-states show how trade can create blended cultures along coastlines."
+  },
+  "1-5": {
+    points: [
+      "The Mexica built power through tribute, military expansion, and control over central Mexico.",
+      "Andean societies used roads, terrace farming, and mit'a labor to manage mountain environments.",
+      "These states were complex even though they developed outside Afro-Eurasian trade networks."
+    ],
+    vocab: ["Mexica", "Inca", "tribute", "mit'a", "terrace farming"],
+    remember: "Mesoamerican and Andean states are examples of complex American societies before European arrival."
+  },
+  "2-0": {
+    points: [
+      "The Silk Roads connected China, Central Asia, the Middle East, and Europe through overland trade.",
+      "Luxury goods moved along these routes, but so did technology, religion, and disease.",
+      "Mongol protection made travel safer for a time, increasing long-distance exchange."
+    ],
+    vocab: ["Silk Roads", "caravanserai", "Pax Mongolica", "luxury goods", "cultural diffusion"],
+    remember: "Silk Roads questions usually ask what moved besides goods."
+  },
+  "2-1": {
+    points: [
+      "The Mongols built the largest contiguous land empire in history through cavalry warfare and conquest.",
+      "Mongol rule could be destructive, but it also protected trade and connected Eurasia.",
+      "They often tolerated local religions and used local administrators to govern diverse peoples."
+    ],
+    vocab: ["Chinggis Khan", "khanate", "Pax Mongolica", "Yuan dynasty", "steppe nomads"],
+    remember: "The Mongols are both conquerors and connectors in AP World."
+  },
+  "2-2": {
+    points: [
+      "Indian Ocean trade depended on monsoon winds, ports, and merchant communities.",
+      "Goods such as spices, textiles, porcelain, and gold moved across East Africa, Arabia, India, Southeast Asia, and China.",
+      "Diasporic merchant communities helped spread Islam, languages, and cultural practices."
+    ],
+    vocab: ["monsoon winds", "diaspora", "dhow", "junk ship", "entrepot"],
+    remember: "Indian Ocean trade was maritime, seasonal, and more bulk-goods friendly than the Silk Roads."
+  },
+  "2-3": {
+    points: [
+      "Trans-Saharan trade linked West Africa to North Africa and the Mediterranean world.",
+      "Gold, salt, enslaved people, textiles, and books moved by camel caravan.",
+      "The trade helped support states such as Ghana, Mali, and Songhai and cities such as Timbuktu."
+    ],
+    vocab: ["camel caravan", "Sahara", "gold-salt trade", "Songhai", "Timbuktu"],
+    remember: "Trans-Saharan trade explains why West African states became rich and connected to Islam."
+  },
+  "2-4": {
+    points: [
+      "Travelers' accounts give historians evidence about trade, religion, cities, and cultural exchange.",
+      "Ibn Battuta traveled through much of Dar al-Islam, while Marco Polo described Mongol-era Eurasia.",
+      "Their writings can be useful but also biased by their own backgrounds and expectations."
+    ],
+    vocab: ["Ibn Battuta", "Marco Polo", "primary source", "travel narrative", "bias"],
+    remember: "Travelers are evidence for connection, but always think about point of view."
+  },
+  "2-5": {
+    points: [
+      "The Black Death spread through trade routes and Mongol-era connections across Eurasia.",
+      "Mass death caused labor shortages, social unrest, and economic changes in many regions.",
+      "The plague shows that networks of exchange can spread disease as well as goods and ideas."
+    ],
+    vocab: ["bubonic plague", "Black Death", "pathogen", "labor shortage", "pandemic"],
+    remember: "The Black Death is the strongest example of a negative consequence of increased connectivity."
+  },
+  "3-0": {
+    points: [
+      "The Ottoman conquest of Constantinople ended the Byzantine Empire and expanded Ottoman power.",
+      "Gunpowder weapons and artillery helped the Ottomans take the city.",
+      "The city became Istanbul, a major imperial and Islamic capital."
+    ],
+    vocab: ["Ottoman Empire", "Constantinople", "Istanbul", "Mehmed II", "gunpowder"],
+    remember: "1453 marks a major shift in Mediterranean and Islamic world power."
+  },
+  "3-1": {
+    points: [
+      "The Safavids made Twelver Shi'a Islam central to Persian identity.",
+      "Their Shi'a identity sharpened rivalry with the Sunni Ottoman Empire.",
+      "Safavid rule blended religion, Persian culture, military power, and trade."
+    ],
+    vocab: ["Safavid", "Twelver Shi'ism", "Shah", "Isfahan", "Sunni-Shi'a split"],
+    remember: "Safavid Iran is the classic AP example of religion used to build state identity."
+  },
+  "3-2": {
+    points: [
+      "The Mughal Empire used gunpowder armies and administrative systems to rule much of India.",
+      "Akbar is known for religious tolerance, while Aurangzeb is associated with stricter Islamic policies.",
+      "Mughal architecture and culture blended Persian, Islamic, and South Asian influences."
+    ],
+    vocab: ["Mughal", "Akbar", "Aurangzeb", "zamindar", "Taj Mahal"],
+    remember: "Mughal India is useful for comparing religious policy and imperial administration."
+  },
+  "3-3": {
+    points: [
+      "The Qing were Manchu rulers who governed China while preserving many Confucian institutions.",
+      "They expanded China's borders into areas such as Tibet, Xinjiang, and Mongolia.",
+      "Qing rulers had to balance Manchu identity with Chinese political traditions."
+    ],
+    vocab: ["Qing dynasty", "Manchu", "Kangxi", "Qianlong", "Confucian bureaucracy"],
+    remember: "The Qing show how a minority ruling group can adapt local traditions to claim legitimacy."
+  },
+  "3-4": {
+    points: [
+      "Russia expanded east across Siberia through Cossacks, fur tribute, and military outposts.",
+      "Expansion connected Russia to Asian trade and increased control over diverse peoples.",
+      "The state used bureaucracy and coercion to bring frontier regions under imperial authority."
+    ],
+    vocab: ["Muscovy", "Romanov", "Cossacks", "yasak", "Siberia"],
+    remember: "Russian expansion is land-based empire building across northern Eurasia."
+  },
+  "3-5": {
+    points: [
+      "The Tokugawa shogunate created stability after a long period of Japanese conflict.",
+      "The shoguns controlled daimyo through systems such as alternate attendance.",
+      "Japan limited some foreign influence while still allowing controlled trade and cultural growth."
+    ],
+    vocab: ["Tokugawa", "shogun", "daimyo", "samurai", "alternate attendance"],
+    remember: "Tokugawa Japan is about order, hierarchy, and carefully managed outside contact."
+  },
+  "4-0": {
+    points: [
+      "Portugal used maritime technology and armed trading posts to enter Indian Ocean commerce.",
+      "Caravels, lateen sails, and navigation tools helped Europeans travel farther by sea.",
+      "Portuguese power depended on controlling strategic ports rather than conquering huge inland empires."
+    ],
+    vocab: ["caravel", "lateen sail", "astrolabe", "trading post empire", "Vasco da Gama"],
+    remember: "Portuguese expansion is the early example of European maritime empire."
+  },
+  "4-1": {
+    points: [
+      "The Columbian Exchange moved plants, animals, diseases, and people between hemispheres.",
+      "American crops such as maize and potatoes supported population growth in Afro-Eurasia.",
+      "Smallpox and other diseases devastated Indigenous populations in the Americas."
+    ],
+    vocab: ["Columbian Exchange", "smallpox", "maize", "potato", "cash crop"],
+    remember: "The Columbian Exchange changed environments, diets, populations, and economies worldwide."
+  },
+  "4-2": {
+    points: [
+      "Spanish conquest succeeded partly because of disease, steel, horses, and Indigenous alliances.",
+      "The Mexica and Inca were powerful empires, but internal tensions made them vulnerable.",
+      "Conquest led to new colonial governments, forced labor systems, and cultural change."
+    ],
+    vocab: ["Cortes", "Pizarro", "Mexica", "Inca", "encomienda"],
+    remember: "Spanish conquest was not just Europeans versus Indigenous peoples; alliances mattered."
+  },
+  "4-3": {
+    points: [
+      "The Atlantic slave trade forcibly moved millions of Africans to the Americas.",
+      "Plantation economies demanded labor for sugar, tobacco, cotton, and other cash crops.",
+      "The trade devastated African societies and created African diaspora cultures in the Americas."
+    ],
+    vocab: ["Middle Passage", "chattel slavery", "plantation", "African diaspora", "triangular trade"],
+    remember: "This topic is central for labor systems, race, capitalism, and demographic change."
+  },
+  "4-4": {
+    points: [
+      "Silver from Potosi and Mexico connected the Americas, Europe, and Asia.",
+      "Spanish silver crossed the Atlantic and Pacific, especially through the Manila galleons.",
+      "China's demand for silver helped pull the world economy together."
+    ],
+    vocab: ["Potosi", "Manila galleons", "silver trade", "mercantilism", "mita"],
+    remember: "Silver is one of the clearest examples of a global economy before 1750."
+  },
+  "4-5": {
+    points: [
+      "Joint-stock companies raised private money for risky overseas trade and colonization.",
+      "Companies such as the Dutch and British East India Companies gained military and political power.",
+      "Mercantilist states wanted colonies to provide wealth, raw materials, and controlled markets."
+    ],
+    vocab: ["joint-stock company", "VOC", "British East India Company", "mercantilism", "monopoly"],
+    remember: "These companies blur the line between business power and state power."
+  },
+  "5-0": {
+    points: [
+      "Enlightenment thinkers argued about natural rights, reason, liberty, and government by consent.",
+      "Their ideas challenged absolute monarchy and inherited privilege.",
+      "Enlightenment claims could inspire reform, revolution, and debates over who deserved rights."
+    ],
+    vocab: ["natural rights", "social contract", "popular sovereignty", "Montesquieu", "Wollstonecraft"],
+    remember: "The Enlightenment gives the language that many revolutionaries used."
+  },
+  "5-1": {
+    points: [
+      "The American Revolution used Enlightenment ideas to justify independence from Britain.",
+      "The new republic expanded political ideas but did not create equality for all people.",
+      "Slavery, Indigenous dispossession, and limited voting rights remained major contradictions."
+    ],
+    vocab: ["Declaration of Independence", "republic", "constitution", "liberty", "popular sovereignty"],
+    remember: "The American Revolution is both revolutionary and limited."
+  },
+  "5-2": {
+    points: [
+      "The French Revolution began from financial crisis, social inequality, and Enlightenment ideas.",
+      "It overthrew monarchy, expanded citizenship claims, and inspired radical political change.",
+      "The revolution also included violence, the Reign of Terror, and later Napoleon's rise."
+    ],
+    vocab: ["Estates-General", "Bastille", "National Assembly", "Reign of Terror", "Napoleon"],
+    remember: "French Revolution questions often focus on causes, radicalization, and global influence."
+  },
+  "5-3": {
+    points: [
+      "The Haitian Revolution was led by enslaved and free people of color against French colonial slavery.",
+      "It created the first Black republic and the first successful slave revolt to form an independent state.",
+      "The revolution frightened slaveholding societies and challenged racist assumptions."
+    ],
+    vocab: ["Saint-Domingue", "Toussaint Louverture", "slave revolt", "Haiti", "abolition"],
+    remember: "Haiti is the most radical Atlantic Revolution because enslaved people won independence."
+  },
+  "5-4": {
+    points: [
+      "Latin American independence was influenced by Enlightenment ideas, creole resentment, and Napoleon's invasion of Spain.",
+      "Creole leaders often wanted independence without fully overturning racial and class hierarchy.",
+      "Independence created new states but did not solve inequality or political instability."
+    ],
+    vocab: ["creoles", "peninsulares", "Simon Bolivar", "Jose de San Martin", "Gran Colombia"],
+    remember: "Latin American independence changed political control more than social hierarchy."
+  },
+  "5-5": {
+    points: [
+      "Industrialization began in Britain because of coal, capital, labor, technology, and access to markets.",
+      "Factories changed production by concentrating workers, machines, and discipline in one place.",
+      "Steam power, textiles, and railroads transformed economies and daily life."
+    ],
+    vocab: ["factory system", "steam engine", "coal", "textiles", "urbanization"],
+    remember: "The Industrial Revolution is about a new way of producing goods, not just new machines."
+  },
+  "6-0": {
+    points: [
+      "The Second Industrial Revolution expanded production through steel, oil, electricity, chemicals, and new machinery.",
+      "Germany, the United States, Japan, and Russia became major industrial powers.",
+      "Industrial competition increased demand for raw materials and markets."
+    ],
+    vocab: ["steel", "electricity", "oil", "mass production", "industrial capitalism"],
+    remember: "This topic explains why industrial power spread and why imperial competition intensified."
+  },
+  "6-1": {
+    points: [
+      "The Meiji Restoration centralized Japan and ended the Tokugawa shogunate.",
+      "Japanese leaders industrialized and modernized the military to avoid Western domination.",
+      "Japan became an imperial power after adopting selected Western methods."
+    ],
+    vocab: ["Meiji Restoration", "emperor", "zaibatsu", "modernization", "Russo-Japanese War"],
+    remember: "Meiji Japan is an example of defensive modernization becoming imperial expansion."
+  },
+  "6-2": {
+    points: [
+      "New Imperialism was driven by industrial demand, strategic competition, and racial ideology.",
+      "European states used military technology and finance to dominate Africa and Asia.",
+      "Colonized peoples resisted through rebellion, diplomacy, religious movements, and nationalism."
+    ],
+    vocab: ["New Imperialism", "Social Darwinism", "Berlin Conference", "colony", "protectorate"],
+    remember: "Connect imperialism to industrialization: factories needed resources and markets."
+  },
+  "6-3": {
+    points: [
+      "The Opium Wars began from trade conflict between Britain and Qing China.",
+      "British victory forced China into unequal treaties, treaty ports, and foreign privileges.",
+      "The wars weakened Qing sovereignty and increased foreign influence in China."
+    ],
+    vocab: ["Opium Wars", "unequal treaties", "Treaty of Nanjing", "treaty ports", "extraterritoriality"],
+    remember: "The Opium Wars show how industrial powers forced open weaker states for trade."
+  },
+  "6-4": {
+    points: [
+      "The Indian Rebellion of 1857 challenged British East India Company rule.",
+      "Its causes included military grievances, religious concerns, and resentment toward British policies.",
+      "After the rebellion, Britain replaced company rule with direct rule called the British Raj."
+    ],
+    vocab: ["sepoy", "Indian Rebellion of 1857", "British Raj", "East India Company", "colonial rule"],
+    remember: "This topic marks the shift from company rule to direct British imperial rule in India."
+  },
+  "6-5": {
+    points: [
+      "Industrialization and empire moved millions of people through migration, indenture, and settlement.",
+      "Abolition ended some forms of slavery but created new coerced labor systems.",
+      "Migrants built diasporic communities while facing discrimination and labor exploitation."
+    ],
+    vocab: ["indentured labor", "diaspora", "settler colony", "abolition", "labor union"],
+    remember: "Migration in this period is tied to labor demand and imperial networks."
+  },
+  "7-0": {
+    points: [
+      "World War I was caused by militarism, alliances, imperial rivalry, and nationalism.",
+      "It became a total war that mobilized soldiers, civilians, economies, and propaganda.",
+      "The war destroyed empires and created new political tensions."
+    ],
+    vocab: ["total war", "trench warfare", "militarism", "alliances", "armistice"],
+    remember: "For World War I, focus on causes and consequences more than individual battles."
+  },
+  "7-1": {
+    points: [
+      "The Russian Revolution grew from war exhaustion, poverty, inequality, and anger at the tsar.",
+      "The Bolsheviks promised peace, land, and bread and built a communist one-party state.",
+      "The new USSR used planned economics and political repression to reshape society."
+    ],
+    vocab: ["Bolsheviks", "Lenin", "tsar", "communism", "USSR"],
+    remember: "Lenin and the Bolsheviks connect World War I crisis to communist state building."
+  },
+  "7-2": {
+    points: [
+      "The Treaty of Versailles punished Germany and redrew parts of Europe.",
+      "Mandates placed former Ottoman and German territories under Allied control.",
+      "The peace settlement promised self-determination unevenly, creating resentment and instability."
+    ],
+    vocab: ["Treaty of Versailles", "mandate system", "self-determination", "League of Nations", "reparations"],
+    remember: "The postwar settlement solved some problems but created many new ones."
+  },
+  "7-3": {
+    points: [
+      "The Great Depression began with financial collapse and spread through global trade and credit networks.",
+      "Unemployment and hardship weakened faith in liberal capitalism.",
+      "States responded with welfare programs, protectionism, militarism, or authoritarian politics."
+    ],
+    vocab: ["Great Depression", "stock market crash", "protectionism", "New Deal", "fascism"],
+    remember: "The Depression helps explain why extremist politics gained support in the 1930s."
+  },
+  "7-4": {
+    points: [
+      "World War II grew from fascist expansion, militarism, appeasement, and unresolved World War I tensions.",
+      "It was a global total war involving civilians, genocide, bombing, and mass mobilization.",
+      "The war ended with the United States and Soviet Union as rival superpowers."
+    ],
+    vocab: ["fascism", "appeasement", "Axis Powers", "Allies", "atomic bomb"],
+    remember: "World War II reshaped global power and set up the Cold War."
+  },
+  "7-5": {
+    points: [
+      "The Holocaust was the Nazi genocide of six million Jews and millions of other victims.",
+      "It used state bureaucracy, racism, camps, forced labor, and mass murder.",
+      "The Holocaust shaped postwar human rights law and genocide prevention debates."
+    ],
+    vocab: ["Holocaust", "antisemitism", "genocide", "concentration camp", "Nuremberg Trials"],
+    remember: "This topic is about ideology, state power, and mass violence."
+  },
+  "8-0": {
+    points: [
+      "The United Nations was founded after World War II to promote peace and cooperation.",
+      "It created forums for diplomacy, security, development, and human rights.",
+      "Cold War rivalry often limited what the UN could actually do."
+    ],
+    vocab: ["United Nations", "Security Council", "General Assembly", "human rights", "peacekeeping"],
+    remember: "The UN reflects hopes for collective security after two world wars."
+  },
+  "8-1": {
+    points: [
+      "The Cold War divided the world into U.S.-led capitalist and Soviet-led communist blocs.",
+      "Competition included arms races, alliances, propaganda, espionage, and proxy wars.",
+      "Nuclear weapons made direct superpower war extremely dangerous."
+    ],
+    vocab: ["Cold War", "NATO", "Warsaw Pact", "containment", "nuclear deterrence"],
+    remember: "The Cold War was a global rivalry fought indirectly in many regions."
+  },
+  "8-2": {
+    points: [
+      "The Chinese Communist Revolution ended the Chinese Civil War and created the People's Republic of China.",
+      "Mao's government used land reform, collectivization, and campaigns to transform society.",
+      "China became a major communist power separate from the Soviet Union over time."
+    ],
+    vocab: ["Mao Zedong", "People's Republic of China", "land reform", "Great Leap Forward", "Cultural Revolution"],
+    remember: "China's revolution is a major example of communism outside Europe."
+  },
+  "8-3": {
+    points: [
+      "Indian independence came from mass politics, anti-colonial organizing, and British weakness after World War II.",
+      "Partition divided British India into India and Pakistan, causing migration and violence.",
+      "Independence did not remove all religious, ethnic, or border tensions."
+    ],
+    vocab: ["Gandhi", "Indian National Congress", "Muslim League", "partition", "Pakistan"],
+    remember: "Independence and partition should be studied together because freedom came with violence."
+  },
+  "8-4": {
+    points: [
+      "African decolonization used negotiation, protest, strikes, armed struggle, and international pressure.",
+      "New states inherited colonial borders and economies built around extraction.",
+      "Cold War powers often intervened in postcolonial conflicts and development."
+    ],
+    vocab: ["decolonization", "Ghana", "Algeria", "Kenya", "neocolonialism"],
+    remember: "African independence was not one process; different colonies used different paths."
+  },
+  "8-5": {
+    points: [
+      "The Non-Aligned Movement gave newly independent states a way to avoid formal Cold War blocs.",
+      "Bandung-era leaders promoted anti-colonialism, sovereignty, and development.",
+      "Nonalignment did not always mean neutrality, but it resisted superpower control."
+    ],
+    vocab: ["Non-Aligned Movement", "Bandung Conference", "Nehru", "Nasser", "Tito"],
+    remember: "Nonalignment was a political strategy for postcolonial states during the Cold War."
+  },
+  "9-0": {
+    points: [
+      "Postwar institutions such as the IMF, World Bank, GATT, and WTO promoted economic integration.",
+      "They encouraged trade, loans, development projects, and market-oriented policies.",
+      "Their effects were uneven, helping some economies while increasing debt or dependency in others."
+    ],
+    vocab: ["IMF", "World Bank", "GATT", "WTO", "free trade"],
+    remember: "These institutions show how globalization was built through rules, money, and trade policy."
+  },
+  "9-1": {
+    points: [
+      "The Green Revolution used high-yield seeds, fertilizer, irrigation, and machinery to increase food production.",
+      "It helped reduce famine risk in some places but favored farmers with access to land, water, and capital.",
+      "It also created environmental issues such as chemical use and water strain."
+    ],
+    vocab: ["Green Revolution", "high-yield crops", "fertilizer", "irrigation", "Norman Borlaug"],
+    remember: "The Green Revolution increased food production, but its benefits and costs were unequal."
+  },
+  "9-2": {
+    points: [
+      "Digital and communication technologies accelerated globalization by moving information instantly.",
+      "Satellites, computers, phones, and the internet changed work, politics, education, and culture.",
+      "These tools also increased surveillance, misinformation, and unequal access."
+    ],
+    vocab: ["internet", "satellite", "digital divide", "telecommunications", "automation"],
+    remember: "Technology made the world more connected, but not everyone benefited equally."
+  },
+  "9-3": {
+    points: [
+      "Human rights and social movements challenged discrimination, authoritarianism, and old social hierarchies.",
+      "Movements used protest, legal change, media, and international pressure.",
+      "Civil rights, feminism, anti-apartheid, Indigenous rights, and LGBTQ rights all fit this larger pattern."
+    ],
+    vocab: ["human rights", "civil rights", "feminism", "anti-apartheid", "NGO"],
+    remember: "Modern rights movements show how people used global language to demand local change."
+  },
+  "9-4": {
+    points: [
+      "Industrial growth and population change increased fossil fuel use, pollution, and resource pressure.",
+      "Climate change became a global issue because causes and effects cross national borders.",
+      "Environmental movements and international agreements tried to respond to shared ecological problems."
+    ],
+    vocab: ["climate change", "fossil fuels", "deforestation", "sustainability", "Paris Agreement"],
+    remember: "Environmental change is a global consequence of industrialization and modern consumption."
+  },
+  "9-5": {
+    points: [
+      "Global popular culture spread through music, film, sports, tourism, migration, and the internet.",
+      "Migration created diasporas that connected home countries and host societies.",
+      "Cultural globalization can create shared trends, but it can also produce backlash over identity."
+    ],
+    vocab: ["popular culture", "diaspora", "migration", "cultural globalization", "remittances"],
+    remember: "This topic is about how people, media, and culture move in the modern world."
+  }
+};
+
 const floatingLayouts = [
   [
     { x: "2%", y: "6%", r: "-5deg" },
@@ -523,8 +1012,9 @@ function setActive(card) {
   card.classList.add("active");
 
   const unit = units.find((candidate) => candidate.id === Number(card.dataset.unit));
-  const [title, date, summary, skill] = unit.events[Number(card.dataset.index)];
-  const notes = studyNotes[unit.id];
+  const topicIndex = Number(card.dataset.index);
+  const [title, date, summary, skill] = unit.events[topicIndex];
+  const notes = topicDetails[`${unit.id}-${topicIndex}`] || studyNotes[unit.id];
 
   panelUnit.textContent = `Unit ${unit.id} - ${unit.title}`;
   panelTitle.textContent = title;
@@ -537,8 +1027,8 @@ function setActive(card) {
   panelVocab.innerHTML = notes.vocab.map((word) => `<span>${word}</span>`).join("");
   panelRemember.textContent = notes.remember;
 
-  const layout = floatingLayouts[Number(card.dataset.index) % floatingLayouts.length];
-  const visuals = topicVisuals(unit, title, Number(card.dataset.index));
+  const layout = floatingLayouts[topicIndex % floatingLayouts.length];
+  const visuals = topicVisuals(unit, title, topicIndex);
   const markup = visualMarkup(visuals, layout);
   imageCloud.style.setProperty("--accent", unit.accent);
   imageCloud.innerHTML = markup;
@@ -606,12 +1096,16 @@ function setPinned(card) {
 }
 
 function scoreUnit(query, unit) {
+  const unitTopicDetails = Object.entries(topicDetails)
+    .filter(([key]) => key.startsWith(`${unit.id}-`))
+    .flatMap(([, detail]) => [...detail.points, ...detail.vocab, detail.remember]);
   const text = [
     unit.title,
     unit.summary,
     ...unit.events.flatMap(([title, date, summary, skill]) => [title, date, summary, skill]),
     ...studyNotes[unit.id].vocab,
-    ...studyNotes[unit.id].points
+    ...studyNotes[unit.id].points,
+    ...unitTopicDetails
   ]
     .join(" ")
     .toLowerCase();
