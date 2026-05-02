@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AP World History Timeline</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="ambient" aria-hidden="true"></div>
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="AP World History timeline home">
+        <span class="brand-mark"></span>
+        AP World
+      </a>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-pressed="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M21 14.2A7.5 7.5 0 0 1 9.8 3 9 9 0 1 0 21 14.2Z" />
+        </svg>
+        <span>Dark</span>
+      </button>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="pageTitle">
+        <p class="eyebrow">c. 1200 CE to the present</p>
+        <h1 id="pageTitle">A clean vertical map of AP World History.</h1>
+        <p class="hero-copy">
+          Scroll the single timeline, hover or focus each point, and jump into any AP World unit from here.
+        </p>
+        <form class="search-form" id="searchForm" role="search">
+          <label for="timelineSearch">Search AP World</label>
+          <div class="search-row">
+            <input
+              id="timelineSearch"
+              type="search"
+              placeholder="Try Lenin, Buddhism, silver, Mongols..."
+              autocomplete="off"
+            />
+            <button type="submit">Search</button>
+          </div>
+          <p class="search-result" id="searchResult" aria-live="polite"></p>
+        </form>
+        <nav class="unit-nav" aria-label="Timeline units" id="unitNav"></nav>
+        <div class="hero-actions" aria-label="Timeline controls">
+          <a class="primary-link" href="#timeline">Start timeline</a>
+          <button class="ghost-button" id="expandAll" type="button">Expand all</button>
+        </div>
+      </section>
+
+      <section class="timeline-shell" id="timeline" aria-label="AP World History timeline">
+        <aside class="reading-panel" aria-live="polite">
+          <p class="panel-kicker" id="panelUnit">Unit 1</p>
+          <h2 id="panelTitle">Hover a topic</h2>
+          <p id="panelText">
+            Topic details, dates, AP skills, and related images will appear here while you explore the line.
+          </p>
+          <div class="panel-meta">
+            <span id="panelRange">c. 1200-present</span>
+            <span id="panelSkill">Continuity and change</span>
+          </div>
+          <div class="study-grid">
+            <section>
+              <h3>Key points</h3>
+              <ul id="panelPoints"></ul>
+            </section>
+            <section>
+              <h3>Vocab</h3>
+              <div class="vocab-list" id="panelVocab"></div>
+            </section>
+          </div>
+          <p class="remember-note" id="panelRemember"></p>
+        </aside>
+
+        <div class="line-wrap">
+          <div class="timeline-line" aria-hidden="true">
+            <div class="line-progress" id="lineProgress"></div>
+          </div>
+          <div class="image-cloud" id="imageCloud" aria-hidden="true"></div>
+          <div class="timeline-list" id="timelineList"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>
+        Built around the
+        <a href="https://apcentral.collegeboard.org/courses/ap-world-history">College Board AP World History: Modern</a>
+        unit sequence. Use it as a study map, then plug in teacher-specific examples where your class goes deeper.
+      </p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
